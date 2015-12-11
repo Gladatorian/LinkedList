@@ -7,12 +7,12 @@ public class LLMethods {
 	String input;
 	int total;
 	int going;
-	
+
 	public LLMethods() {
 		input = " ";
 		total = 1;
 		going = 0;
-		
+
 	}
 
 	public void input() {
@@ -30,18 +30,6 @@ public class LLMethods {
 	}
 
 	public void lister() {
-//		if (list.contains("John"))
-//			System.out.println("John is a cantaloupe.");
-//		else
-//			System.out.println("John is NOT a cantaloupe.");
-//
-//		list.deleteHeadNode();
-		// while (list.deleteHeadNode())
-		// ; // Empty loop body
-//		System.out.println("Start of list:");
-//		list.outputList();
-//		System.out.println("End of list.");
-		
 		if (list.size() == 1) {
 			System.out.println("List has " + list.size() + " node.");
 			list.outputList();
@@ -50,14 +38,16 @@ public class LLMethods {
 			System.out.println("List has " + list.size() + " nodes.");
 		}
 	}
-	
+
 	public void removeDupe() {
-		for(int i = 0; i < list.size(); i++) {
-			
+		for (int i = 0; i < list.size(); i++) {
+
 		}
 	}
-	
+
 	public void reverseList() {
-		
+		for (int i = 0; i < list.size(); i++) {
+
+		}
 	}
 }
